@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
 
             $table->string('title');
 
-            $table->string('description');
+            $table->text('description');
 
             $table->text('content');
 
