@@ -8,17 +8,20 @@
 <div class="card card-default">
     <div class="card-header">Categories</div>
     <div class="card-body">
+        @if($categories->count() > 0)
         <table class="table">
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th></th>
+                    <th>Posts count</th>
+                    <th colspan="2"></th>
                 </tr>
             </thead>
             <tbody>
              @foreach($categories as $category)
                 <tr>
                     <td>{{ $category->name }}</td>
+                    <td>{{ $category->posts->count() }}</td>
                     <td>
                         <a href="{{ route('categories.edit', $category->id) }}" class="btn btn-info btn-sm text-white">Edit</a>
                         <button class="btn btn-danger btn-sm" onclick="handleDelete({{ $category->id }})">Delete</button>
@@ -53,6 +56,10 @@
                 </form>
             </div>
         </div>
+         @else
+        <h3 class="text-center">No categories yet</h3>
+         @endif
+
     </div>
 </div>
 

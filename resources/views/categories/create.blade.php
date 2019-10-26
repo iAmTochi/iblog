@@ -9,17 +9,7 @@
 
         <div class="card-body">
 
-            @if($errors->any())
-                <div class="alert alert-danger">
-                    <ul class="list-group">
-                        @foreach($errors->all() as $error)
-                            <li class="list-group-item text-danger">
-                                {{ $error }}
-                            </li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
+            @include('partials.errors')
 
             <form action="{{ isset($category) ? route('categories.update', $category->id) : route('categories.store') }}" method="POST">
                 @isset($category)
