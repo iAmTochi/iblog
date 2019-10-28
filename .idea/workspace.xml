@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="100">
               <caret line="96" column="22" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="22" />
             </state>
           </provider>
@@ -284,7 +284,7 @@
       <path value="$PROJECT_DIR$/vendor/thomaswelton/laravel-gravatar" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="y" value="30" />
     <option name="width" value="974" />
@@ -445,16 +445,15 @@
       <workItem from="1571930385239" duration="14561000" />
       <workItem from="1571998812314" duration="621000" />
       <workItem from="1572001651806" duration="3569000" />
-      <workItem from="1572190367827" duration="11398000" />
+      <workItem from="1572190367827" duration="11706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83963000" />
+    <option name="totallyTimeSpent" value="84271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="30" width="974" height="1057" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="30" width="974" height="1057" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" weight="0.3085339" />
       <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.22765957" />
@@ -934,7 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="100">
           <caret line="96" column="22" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="22" />
         </state>
       </provider>
