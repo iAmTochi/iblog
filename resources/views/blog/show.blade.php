@@ -51,7 +51,14 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         {!! $post->content !!}
+                        <hr>
+
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                            <div class="addthis_inline_share_toolbox"></div>
+
                     </div>
+
+
                 </div>
 
                 <div class="row">
@@ -60,7 +67,7 @@
                         <div class="gap-xy-2 mt-6">
 
                             @foreach($post->tags as $tag)
-                            <a class="badge badge-pill badge-secondary" href="#">{{ $tag->name }}</a>
+                            <a class="badge badge-pill badge-secondary" href="{{ route('blog.tag', $tag->id) }}">{{ $tag->name }}</a>
                             @endforeach
                         </div>
 

@@ -95,7 +95,8 @@
     <script>
         flatpickr('#published_at', {
             minDate: "today",
-            enableTime: true
+            enableTime: true,
+            enableSeconds: true
         });
 
         $(document).ready(function() {
